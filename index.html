@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang = "en" >
+    <head>
+        <meta charset = "utf-8 " >
+        <meta name=" viewport" width="device width , initial scale = 1.0" >
+        <title > My Profile Card</title>
+        <style>
+         body   {font family : Arial, sans-serif;
+                background :  rgb(126, 130, 150)}
+                 .profile-card {
+            width: 300px;
+            margin: 70px auto;
+            padding: 20px;
+            background-color: rgb(159, 173, 200);
+            border-radius: 25px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            text-align: center;
+
+        }
+          .bio {
+            font-size: 14px;
+            color: #320101;
+        }
+  ul {
+            list-style-type: square;
+            padding: 0;
+        }
+           .contact a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            color: #ff6600;
+        }
+
+        /* Descendant selector */
+        .contact p {
+            margin: 5px 0;
+        }
+
+        /* Attribute selector */
+        a[href] {
+            font-weight: bold;
+        }
+   h1, h2 {
+            color: #333;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+        
+    </head>
+<body>
+     <div class="profile-card" style="border: 2px solid #0077cc;"> <!-- Inline CSS -->
+        <h1>Kashish Sharma</h1>
+        <img id="profile-pic" src="profile.jpg" alt="Profile Picture">
+        <p class="bio">Curious learner, currently diving into the world of web development</p>
+
+        <h2>My Hobbies</h2>
+       
+            Cooking <br>
+            Coding<br>
+            Traveling<br>
+       
+
+        <div class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:kashishsharma0337@gmail.com.com">kashishsharma0337@gmail.com</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/kashish_sharmaa.?igsh=dXRyOGQ1dndvbDBl" target="_blank"> kashish_sharmaa</a></p>
+        </div>
+    </div>
+</body>
+</html>
